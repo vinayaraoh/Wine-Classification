@@ -3,4 +3,6 @@
 
 
 
-Italy and France are historically among the countries that produce the most prestigious wines worldwide. This dataset characterizes the Protected Designation of Origin(PDO) label wines produced in Italy and France at very high detail based on the official EU documents. In this project, I build a logistic regression model and a Random Forest model to predict the country of wine origin (IT/FR) based on features of the wine like colour, type and maximum allowed yields. I also perform clustering on the data in an attempt to predict the country of wine origin.
+Italy and France are historically among the countries that produce the most prestigious wines worldwide. This dataset is the first of its kind that characterizes the Protected Designation of Origin(PDO) label wines produced in Italy and France at very high detail based on the official EU documents. 
+
+In this project, I aim to predict the country of wine origin (IT/FR) for different wines based on several features like wine color, category and maximum yield. Since the dataset is unprocessed, I first perform data cleaning and preparation. Next, I split the data into training and test to build a Logistic Regression model and a Random Forest model to predict the country of wine origin. I also perform clustering on the data (k-means clustering) to predict the country of wine origin. 
